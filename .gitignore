@@ -9,3 +9,14 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Không đưa khoá ký và mật khẩu lên GitHub
+keystore.properties
+*.jks
+*.keystore
+
+# Kết quả build — phát hành qua GitHub Releases, không commit vào repo
+*.apk
+*.aab
+*.ap_
+*.dex
